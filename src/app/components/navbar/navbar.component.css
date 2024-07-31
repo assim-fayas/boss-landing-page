@@ -1,0 +1,20 @@
+@keyframes fadeColorLeftToRight {
+    0% {
+      font-size:8.4px;            
+    }
+    50% {
+        font-size:11px;
+    }
+    100% {
+        font-size:8.4px;  
+    }
+  }
+  
+  
+  /* styles.css or your component's CSS file */
+.animated-text {
+    display: inline-block;
+    animation: fadeColorLeftToRight 4s infinite;
+  }
+  
+  

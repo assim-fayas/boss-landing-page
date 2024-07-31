@@ -1,0 +1,7 @@
+/* styles.css or your component's CSS file */
+.gradient-text {
+    background: linear-gradient(to bottom, #FC0101 30%, #FFFFFF 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  

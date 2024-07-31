@@ -1,0 +1,17 @@
+/* image-slider.component.css or styles.css */
+.hidden {
+    display: none;
+  }
+  
+  .relative {
+    position: relative;
+  }
+  
+  .absolute {
+    position: absolute;
+  }
+  
+  .transition-transform {
+    transition: transform 0.7s ease-in-out;
+  }
+  
