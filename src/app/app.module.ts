@@ -8,6 +8,7 @@ import { CarousalComponent } from './components/carousel/carousal/carousal.compo
 import { FooterComponent } from './components/footer/footer/footer.component';
 import { HeroComponent } from './components/hero/hero.component';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
+import { LocationComponent } from './components/location/location.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { SlickCarouselModule } from 'ngx-slick-carousel';
     NavbarComponent,
     CarousalComponent,
     FooterComponent,
-    HeroComponent
+    HeroComponent,
+    LocationComponent
   ],
   imports: [
     BrowserModule,
