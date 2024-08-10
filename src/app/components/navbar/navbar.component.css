@@ -1,20 +1,8 @@
-@keyframes fadeColorLeftToRight {
-    0% {
-      font-size:8.4px;            
-    }
-    50% {
-        font-size:11px;
-    }
-    100% {
-        font-size:8.4px;  
-    }
-  }
-  
-  
-  /* styles.css or your component's CSS file */
-.animated-text {
-    display: inline-block;
-    animation: fadeColorLeftToRight 4s infinite;
-  }
-  
-  
+.shadow-2xl {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+/* New shadow class that will be applied when onScrolled is true */
+.shadow-colored {
+  box-shadow: 0 10px 15px -3px rgba(255, 255, 255, 0.033), 0 4px 6px -2px rgba(255, 255, 255, 0.06);
+}

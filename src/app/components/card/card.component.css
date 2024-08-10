@@ -2,7 +2,7 @@
 .card {
     width: 190px;
     height: 254px;
-    background: url('../../../assets/image/dress1.jpg') no-repeat center center;
+    background: url('../../../assets/image/WhatsApp Image.jpg') no-repeat center center;
     background-size: cover;
     position: relative;
     display: flex;
@@ -11,11 +11,21 @@
     overflow: hidden;
     border-radius: 20px;
 }
+.card:hover{
+    transform: scale(1.025);
+    transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+    opacity: 0.5;
+ 
+    
+  
+}
+
 
 .card h2 {
     z-index: 3;
     color: white;
     font-size: 2em;
+    position: relative; 
 }
 
 .card::before {
@@ -42,9 +52,20 @@
     content: '';
     position: absolute;
     z-index: 2; 
-    background: url('../../../assets/image/dress1.jpg') no-repeat center center;
+    background: url('../../../assets/image/WhatsApp Image.jpg') no-repeat center center;
     background-size: cover;
     inset: 5px;
     border-radius: 15px;
 }
+.card-button {
+    z-index: 4; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 80%); 
+    
+  }
+.card:hover .card-button {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+  }
 

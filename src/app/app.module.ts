@@ -10,6 +10,7 @@ import { HeroComponent } from './components/hero/hero.component';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
 import { LocationComponent } from './components/location/location.component';
 import { CardComponent } from './components/card/card.component';
+import { SocialComponent } from './components/social/social.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { CardComponent } from './components/card/card.component';
     FooterComponent,
     HeroComponent,
     LocationComponent,
-    CardComponent
+    CardComponent,
+    SocialComponent
   ],
   imports: [
     BrowserModule,
