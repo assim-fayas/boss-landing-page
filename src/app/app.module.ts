@@ -12,6 +12,7 @@ import { LocationComponent } from './components/location/location.component';
 import { CardComponent } from './components/card/card.component';
 import { SocialComponent } from './components/social/social.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +27,9 @@ import { SocialComponent } from './components/social/social.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SlickCarouselModule
+    SlickCarouselModule,
+    
+  
   
     
  

@@ -1,14 +1,17 @@
-<div class="mt-28 lg:mt-20 lg:mb-16">
-  <h3 class="text-center text-4xl font-medium lg:font-bold text-[#FC2E2E]">
-    Your Style Destinations
-  </h3>
-  <p
-    class="text-center pt-8 md:text-xl text-[#ffffffc4] lg:font-medium leading-relaxed"
-  >
-    we pride ourselves on being accessible and convenient for our customers.
-  </p>
-
-  <div class="flex justify-center gap-1 lg:mt-12">
+<div class="mt-10 lg:mt-20 lg:mb-16 overflow-hidden">
+  <div data-aos="fade-right" data-aos-duration="1500">
+    <h3 class="text-center text-2xl md:text-4xl font-bold text-[#FC2E2E]">
+      Your Style Destinations
+    </h3>
+  </div>
+  <div data-aos="fade-left" data-aos-duration="1500">
+    <p
+      class="text-center p-6 md:p-0 md:pt-8 text-xl text-[#ffffffc4] lg:font-medium leading-relaxed"
+    >
+      we pride ourselves on being accessible and convenient for our customers.
+    </p>
+  </div>
+  <div class="hidden md:flex md:justify-center gap-1 lg:mt-12">
     <div *ngFor="let item of cardData">
       <svg
         class="h-12 w-12 animate-bounce"
@@ -64,16 +67,16 @@
 
       <div class="flex justify-start gap-1 pt-2">
         <div *ngIf="item.id != 3">
-          <hr class="w-28 border-dashed border-2 border-white" />
+          <hr class="w-28 border-dashed border-2 border-[#ffffffc4]" />
         </div>
         <div *ngIf="item.id != 3">
-          <hr class="w-28 border-dashed border-2 border-white" />
+          <hr class="w-28 border-dashed border-2 border-[#ffffffc4]" />
         </div>
         <div *ngIf="item.id != 3">
-          <hr class="w-28 border-dashed border-2 border-white" />
+          <hr class="w-28 border-dashed border-2 border-[#ffffffc4]" />
         </div>
         <div *ngIf="item.id == 3">
-          <hr class="w-12 border-dashed border-2 border-white" />
+          <hr class="w-12 border-dashed border-2 border-[#ffffffc4]" />
         </div>
       </div>
       <div class="-ml-20 mt-7">

@@ -1,43 +1,4 @@
-/* .slick-slider {
-  width: 88%;
-  margin: auto;
-  background: rgb(14, 13, 13);
-}
 
-.slick-slider .slide img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
-
-@media (min-width: 1200px) {
-  .slick-slider .slide img {
-    width: 300px;
-    height: 270px;
-  }
-}
-
-@media (min-width: 992px) and (max-width: 1199px) {
-  .slick-slider .slide img {
-    width: 150px;
-    height: 150px;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  .slick-slider .slide img {
-    width: 200px;
-    height: 150px;
-  }
-}
-
-@media (max-width: 767px) {
-  .slick-slider .slide img {
-    width: 200px;
-    height: 150px;
-  }
-
-} */
 @import url("https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&display=swap");
 
 .container {
@@ -67,13 +28,13 @@
     position: relative;
     background-color: var(--black-color);
     border: 2px solid var(--gray-color);
-    padding: 2rem;
+    padding: 0.25rem;
     display: grid;
     row-gap: 1rem;
     overflow: hidden;
     transition: background-color .6s;
     max-width: 320px;
-    width: 100%;
+    width: 80%;
 }
 
 .card__img {
@@ -109,30 +70,6 @@
     transition: transform .4s;
 }
 
-.card__button {
-    background-color: var(--white-color);
-    padding: .75rem 1rem;
-    color: var(--black-color);
-    display: flex;
-    align-items: center;
-    column-gap: .5rem;
-    justify-self: center;
-    box-shadow: 0 8px 24px hsla(170, 12%, 8%, .1);
-    position: absolute;
-    bottom: -1.5rem;
-    opacity: 0;
-    pointer-events: none;
-    transition: transform .4s, opacity .4s;
-}
-
-.card__button i {
-    font-size: 1.25rem;
-    transition: transform .4s;
-}
-
-.card__button:hover i {
-    transform: translateX(.5rem);
-}
 
 .card__article:hover .card__img {
     transform: translateY(-1.5rem);
@@ -157,15 +94,44 @@
     pointer-events: initial;
 }
 
+.class_resize {
+    width: 100%; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.card__article {
+    max-width: 320px;
+    width: 80%;
+    height: auto; 
+    box-sizing: border-box; 
+}
+
+.card__container .class_resize {
+    max-width: 320px; 
+    flex-grow: 1; 
+}
+
+
 @media screen and (max-width: 768px) {
     .card__container {
         flex-direction: column;
         align-items: center;
+        padding: 1.5rem;
     }
+
+    
 }
 
 @media screen and (min-width: 1120px) {
     .card__img {
         width: 220px;
+        
     }
+.card__article{
+  height: 15rem;
+  width: 16rem;
+}
+ 
 }
