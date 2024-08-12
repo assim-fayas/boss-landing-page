@@ -104,13 +104,15 @@
 .card__article {
     max-width: 320px;
     width: 80%;
-    height: auto; 
+    height:15rem ; 
     box-sizing: border-box; 
 }
 
 .card__container .class_resize {
     max-width: 320px; 
     flex-grow: 1; 
+
+
 }
 
 
